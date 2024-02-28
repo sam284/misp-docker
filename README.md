@@ -33,9 +33,9 @@ The underlying spirit of this project is to allow "repeatable deployments", and 
 -   Customize `.env` based on your needs (optional step)
 
 ### Run
-
--   `docker-compose pull` if you want to use pre-built images or `docker-compose build` if you want to build your own (see the `Troubleshooting` section in case of errors)
--   `docker-compose up`
+-  this only runs properly when used with docker compose not 'docker-compose'. 
+###-   `docker-compose pull` if you want to use pre-built images or `docker-compose build` if you want to build your own (see the `Troubleshooting` section in case of errors)
+###-   `docker-compose up`
 -   Login to `https://localhost`
     -   User: `admin@admin.test`
     -   Password: `admin`
